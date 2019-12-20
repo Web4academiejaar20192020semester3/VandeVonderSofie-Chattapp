@@ -1,0 +1,278 @@
+@CHARSET "UTF-8";
+
+body {
+    background-color: #f1f1f1;
+    font-size: 11px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    text-align: left;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+header, main, footer {
+    margin: 10px auto;
+    width: 90%;
+    max-width: 800px;
+    display: block;
+}
+
+img {
+    max-width: 100%; /* responsive image */
+    border: 5px solid black;
+
+}
+
+table {
+    max-width: 100%;
+    background-color: transparent;
+    border-top: 2px solid #666;
+    border-bottom: 2px solid #666;
+    border-collapse: collapse;
+    margin-bottom: 32px;
+}
+
+th {
+    padding: 10px 40px 10px 5px;
+    border-bottom: 1px solid #666;
+    background-color: #eee;
+}
+
+td {
+    padding: 10px 40px 10px 5px;
+}
+
+.number {
+    text-align: right;
+    padding-right: 10px;
+}
+
+p > label {
+    float: left;
+    width: 25%;
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 10px;
+    color: #666;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+    border: 1px solid #aaa;
+    color: #666;
+    height: 30px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 30%;
+    font-size: 12px;
+    line-height: 15px;
+    border-radius: 3px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+
+input[type="submit"], button {
+    border: 1px solid #aaa;
+    color: #666;
+    height: 30px;
+    margin-right: 6px;
+    margin-top: 2px;
+    margin-left: 28%;
+    padding: 3px 3px 3px 5px;
+    font-size: 16px;
+    border-radius: 3px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+
+fieldset {
+    border: 1px solid #999;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+fieldset {
+    border: 1px solid #999;
+}
+
+.danger {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+}
+
+p > label.has-error {
+    color: #a80f0c;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-bottom: 40px;
+    margin-left: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 100%;
+}
+
+nav ul li:first-child {
+    margin-right: 40px;
+}
+
+nav ul li:last-child {
+    margin-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    margin-top: 3%;
+}
+
+nav ul li a#actual {
+    border-bottom: 1px solid black;
+}
+
+nav ul li#current {
+    border-bottom: 1px solid black;
+}
+
+.opdracht {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /*border: 1px solid black;*/
+    /* border-bottom: #999999 1px solid;
+ */
+}
+
+#changeStatusButton, #changeSelectedStatus {
+    border: 1px solid #aaa;
+    color: #666;
+    height: 30px;
+    padding: 3px 3px 3px 5px;
+    font-size: 16px;
+    border-radius: 3px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+
+
+.blog {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 11px;
+    margin-bottom: 2%;
+
+
+}
+
+.blog h5 {
+
+    font-size: 150%;
+
+}
+
+.blog p {
+    margin: 1%;
+}
+
+/*#post1,#post2, #post3, #post4, #post5 {
+    border: 2px solid black;
+
+}*/
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-bottom: 0.5em;
+    display: block;
+    border: none;
+    margin-top: 2%;
+}
+
+#genderP {
+    margin-top: 2%;
+    height: 40px;
+    vertical-align: center;
+
+}
+
+.opgave {
+    font-style: italic;
+    font-size: 10px;
+    margin: 3%;
+}
+
+
+#currentStatus {
+    margin-top: 5%;
+    margin-left: 3%;
+    color: royalblue;
+
+}
+
+#jQueryButton {
+
+    margin-left: 0;
+}
+
+#statsJQButton {
+    margin-left: 0;
+}
+
+.inlineblock {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.weneedsomemarginhere {
+    margin-top: 2%;
+}
+
+#chatBox {
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#deleteStatsJQbutton {
+    margin-left: 0;
+}
+
+
+.content {
+    padding: 1%;
+
+}
+
+#sendMessageButton {
+    border: 1px solid #aaa;
+    color: #666;
+    height: 30px;
+    padding: 3px 3px 3px 5px;
+    font-size: 16px;
+    border-radius: 3px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
