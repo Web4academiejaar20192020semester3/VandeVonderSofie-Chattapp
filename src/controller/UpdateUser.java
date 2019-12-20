@@ -1,4 +1,4 @@
-
+/*
 package controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -6,15 +6,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import domain.Person;
 import domain.PersonService;
 import domain.Role;
-import jdk.nashorn.internal.parser.JSONParser;
-
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.*;
+import java.util.List;
 
 
 public class UpdateUser extends AsyncRequestHandler {
@@ -59,5 +55,5 @@ public class UpdateUser extends AsyncRequestHandler {
                 return mapper.writeValueAsString(person);
         }
 
-}
+}*/
 
